@@ -1,6 +1,6 @@
 package search
 
-import "github.com/jacobroberts/chess/engine"
+import "github.com/yamamushi/chess/engine"
 
 const (
 	WHITEWIN        float64 = 255

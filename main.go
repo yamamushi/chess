@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/jacobroberts/chess/engine"
-	"github.com/jacobroberts/chess/search"
+	"github.com/yamamushi/chess/engine"
+	"github.com/yamamushi/chess/search"
 
 	"github.com/gorilla/mux"
 )
@@ -31,7 +31,7 @@ const (
 </html>
 `
 	PORT = ":9999"
-	LOG  = true
+	LOG  = false
 )
 
 var (

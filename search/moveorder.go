@@ -3,7 +3,7 @@ package search
 import (
 	"sort"
 
-	"github.com/jacobroberts/chess/engine"
+	"github.com/yamamushi/chess/engine"
 )
 
 // The following defines a type and functions such that the sort package can order moves by their score.

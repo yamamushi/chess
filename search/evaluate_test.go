@@ -3,7 +3,7 @@ package search
 import (
 	"testing"
 
-	"github.com/jacobroberts/chess/engine"
+	"github.com/yamamushi/chess/engine"
 )
 
 func TestEval(t *testing.T) {

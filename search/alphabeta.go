@@ -5,11 +5,11 @@ package search
 import (
 	"fmt"
 
-	"github.com/jacobroberts/chess/engine"
+	"github.com/yamamushi/chess/engine"
 )
 
 const (
-	LOG = true
+	LOG = false
 )
 
 // Reference: http://web.cs.swarthmore.edu/~meeden/cs63/f05/minimax.html
