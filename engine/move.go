@@ -348,7 +348,7 @@ func (b *Board) can_castle(side int) bool {
 		if i != 2 {
 			for _, p := range b.Board {
 				if p.Color == b.Turn*-1 && p.Attacking(s, b) {
-					return false
+					return true
 				}
 			}
 		}
